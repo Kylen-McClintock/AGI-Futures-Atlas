@@ -1747,10 +1747,10 @@ Learn " property="twitter:description" data-next-head="">
     }
 
     @media only screen and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 2),
-    @media only screen and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3),
-    @media only screen and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio: 4) {
+    only screen and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3),
+    only screen and (max-device-width: 640px) and (-webkit-min-device-pixel-ratio: 4) {
       .comments-wrapper .comment-editor .ProseMirror {
-        font-size:16px !important;
+        font-size: 16px !important;
       }
     }
 
@@ -7536,6 +7536,11 @@ Learn " property="twitter:description" data-next-head="">
 
     .ProseMirror-focused .ProseMirror-gapcursor {
       display: block;
+    }
+  </style>
+  <style>
+    [data-id="made-with-gamma-btn"] {
+      display: none !important;
     }
   </style>
 </head>
@@ -13468,7 +13473,8 @@ Learn " property="twitter:description" data-next-head="">
               <path fill="currentColor"
                 d="M64 32C64 14.3 49.7 0 32 0S0 14.3 0 32V480c0 17.7 14.3 32 32 32s32-14.3 32-32V352H424c13.3 0 24-10.7 24-24c0-5.2-1.7-10.2-4.8-14.4L352 192 443.2 70.4c3.1-4.2 4.8-9.2 4.8-14.4c0-13.3-10.7-24-24-24H64z">
               </path>
-            </svg></button></div>
+            </svg></button>
+        </div>
       </div>
     </div><span id="__chakra_env" hidden=""></span>
   </div>
